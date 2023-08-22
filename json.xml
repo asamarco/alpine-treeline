@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/json">
+    <comment>Treeline file</comment>
+    <sub-class-of type="application/javascript"/>
+    <generic-icon name="treeline-icon"/>
+    <glob pattern="*.trln"/>
+    <icon name="treeline-icon"/>
+  </mime-type>
+</mime-info>

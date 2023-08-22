@@ -1,0 +1,5 @@
+[Default Applications]
+application/json=treeline.desktop
+
+[Added Associations]
+application/json=treeline.desktop;
