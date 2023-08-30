@@ -1,4 +1,4 @@
-FROM kasmweb/core-alpine-317:1.13.1
+FROM kasmweb/core-alpine-318:1.14.0
 USER root
 
 ENV HOME /home/kasm-default-profile
