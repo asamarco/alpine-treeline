@@ -1,4 +1,4 @@
-FROM kasmweb/core-alpine-318:1.14.0
+FROM kasmweb/core-alpine-319:1.15.0
 USER root
 
 ENV HOME /home/kasm-default-profile
@@ -16,6 +16,7 @@ RUN \
    && wget https://github.com/doug-101/TreeLine/releases/download/v$version/treeline-$version.tar.gz \
    && tar xf treeline-$version.tar.gz\
    && apk update\
+   && apk upgrade\
    && apk add --no-cache \
         py3-qt5 \
         thunar-vcs-plugin \
